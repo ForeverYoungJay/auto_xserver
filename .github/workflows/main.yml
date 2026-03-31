@@ -5,6 +5,9 @@ on:
     - cron: "33 1 * * *"   # 每天 UTC 01:33（北京时间 09:33）
   workflow_dispatch:
 
+permissions:
+  contents: write
+  
 jobs:
   run:
     runs-on: ubuntu-latest
