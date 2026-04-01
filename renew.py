@@ -36,7 +36,7 @@ USE_PROXY = bool(PROXY_SERVER)  # 如果有代理地址则启用
 # XServer登录配置 - 可以直接填写或使用环境变量
 LOGIN_EMAIL = os.getenv("XSERVER_EMAIL") or ""
 LOGIN_PASSWORD = os.getenv("XSERVER_PASSWORD") or ""
-TARGET_URL = "https://secure.xserver.ne.jp/xapanel/login/xmgame"
+TARGET_URL = "https://secure.xserver.ne.jp/xapanel/login/xvps"
 
 # Telegram配置 - 可选，不填则不推送
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or ""
